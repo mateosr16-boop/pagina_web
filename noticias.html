@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias - Violencia de Género</title>
+    
+    <style>
+       
+        :root {
+            --color-purple: #553a7e;
+            --color-text-dark: #333;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: var(--color-text-dark);
+        }
+
+        .page-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .content-area {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px 20px 40px 20px;
+        }
+        
+        
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 15px 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links span {
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 20px;
+            font-size: 12px;
+        }
+
+        .btn-noticias {
+            background-color: #000;
+            color: white !important;
+            padding: 8px 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 11px !important;
+        }
+        
+        
+        .main-title {
+            font-size: 26px;
+            font-weight: 800;
+            color: black;
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+
+        .noticia-item {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: flex-start;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .noticia-item:last-of-type {
+            border-bottom: none;
+        }
+
+        .noticia-texto {
+            width: 58%; 
+            padding-right: 2%; 
+        }
+
+        .noticia-imagen {
+            width: 40%; 
+        }
+
+        .noticia-imagen img {
+            width: 100%; 
+            height: auto;
+            display: block;
+        }
+        
+        .noticia-texto h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .noticia-texto p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-top: 0;
+        }
+        
+        
+        .campaign-section {
+            margin-top: 50px;
+        }
+
+        .campaign-title {
+            font-weight: bold;
+            font-size: 18px;
+            color: var(--color-text-dark);
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .campaign-title .emoji {
+            color: var(--color-purple);
+            margin-right: 5px;
+        }
+
+        .campaign-slogan {
+            font-weight: bold;
+            font-size: 16px;
+            color: var(--color-purple);
+            margin-bottom: 20px;
+        }
+
+        .campaign-text {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .cta {
+            font-weight: bold;
+            font-size: 16px;
+            color: #ff9800;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-wrapper">
+        
+        <nav class="navbar">
+            <div class="nav-links">
+                <span style="font-weight: bold;">ASOCIACIÓN VIDAS LIBRES</span>
+                <a href="iniciativa y puntos violetas.html">Puntos Violetas</a>
+                <a href="CONTACTO Y PARTICIPACION.html">Contacto</a>
+                <a href="que es la vg.html">¿Que es la violencia de genero?</a>
+                <a href="testimonios y experiencias.html">Testimonios</a>
+                <a href="Educacion y prevencion.html">Educacion y prevención</a>
+                <a href="noticias.html" class="btn-noticias">NOTICIAS</a>
+            </div>
+        </nav>
+
+        <div class="content-area">
+            <h1 class="main-title">NOTICIAS</h1>
+
+            <div class="noticia-item">
+                <div class="noticia-texto">
+                    <h3>Asesinada una mujer de 49 años en Zaragoza a manos de su pareja</h3>
+                    <p>
+                        Una mujer fue asesinada con arma blanca por su pareja en un domicilio 
+                        del distrito San José, Zaragoza. Con este crimen, ya son 35 mujeres 
+                        asesinadas en 2025 por violencia de género en España.
+                    </p>
+                </div>
+                <div class="noticia-imagen">
+                    <img src="noticias (1).png" alt="Personas protestando, sosteniendo carteles contra la violencia">
+                </div>
+            </div>
+
+            <div class="noticia-item">
+                <div class="noticia-texto">
+                    <h3>El 31 % de las mujeres asesinadas por violencia machista en 2024 habían denunciado previamente</h3>
+                    <p>
+                        En 2024, 48 mujeres fueron asesinadas; de ellas, 15 habían denunciado 
+                        a su agresor con anterioridad, un porcentaje récord desde que se recogen 
+                        datos (31 %).
+                    </p>
+                </div>
+                <div class="noticia-imagen">
+                    <img src="noticias (2).png" alt="Personas en manifestación nocturna, con carteles de 'Ni una menos'">
+                </div>
+            </div>
+
+            <div class="noticia-item">
+                <div class="noticia-texto">
+                    <h3>Mar Lucas alza la voz en redes contra la violencia de género</h3>
+                    <p>
+                        La influencer denunció públicamente sus experiencias de abuso físico 
+                        y psicológico para visibilizar que la violencia no siempre es visible 
+                        ni física, y pidió cambiar el enfoque social hacia los agresores.
+                    </p>
+                </div>
+                <div class="noticia-imagen">
+                    <img src="noticias (3).png" alt="Mar Lucas en una protesta, sosteniendo un cartel morado">
+                </div>
+            </div>
+            
+            <div class="campaign-section">
+                <div class="campaign-title">
+                    <span class="emoji">💬</span> "Rompe el Silencio"
+                </div>
+
+                <div class="campaign-title campaign-slogan">
+                    <span class="emoji">💜</span> Campaña "Rompe el Silencio"
+                </div>
+
+                <p class="campaign-text">
+                    La violencia de género nos afecta a todos. Esta campaña busca generar 
+                    conciencia, ofrecer apoyo a las víctimas y promover una cultura de respeto e 
+                    igualdad.
+                </p>
+                <p class="campaign-text">
+                    Nadie está solo. Hablar es el primer paso para cambiarlo todo.
+                </p>
+                <p class="campaign-text" style="font-weight: bold;">
+                    Llamado a la acción (CTA):
+                </p>
+
+                <div class="cta">
+                    <span style="margin-right: 5px;">🤝</span> "Infórmate, apoya, denuncia."
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
